@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-.header-img {
+.header__img {
   width: 100%;
 }
 
-.link {
+.header__link {
   font-family: fantasy, cursive;
 }
 
@@ -38,7 +38,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task__row__wrapper {
   display: flex;
 }
 
@@ -149,21 +149,21 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#completed__tasks label {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.ul li input[type=text] {
   display: none;
 }
 
-ul .editMode input[type=text] {
+.ul .edit__mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-ul .editMode label {
+.ul .edit__mode label {
   display: none;
 }
